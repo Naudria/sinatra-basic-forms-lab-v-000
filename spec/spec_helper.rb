@@ -3,7 +3,7 @@ require_relative '../config/environment.rb'
 require 'capybara/dsl'
 require 'rack/test'
 require 'capybara/dsl'
-require 'capybara/rspec'
+
 
 RSpec.configure do |config|
   config.include Capybara::DSL
