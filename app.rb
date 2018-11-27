@@ -8,6 +8,7 @@ get '/' do
 end
 
 get '/new' do
+  binding.pry
   erb :create_puppy
 end
 
