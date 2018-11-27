@@ -8,11 +8,11 @@ get '/' do
 end
 
 get '/new' do
-  binding.pry
   erb :create_puppy
 end
 
 post '/puppy' do
+  binding.pry
     @puppy = Puppy.new(params[:name], params[:breed], params[:age])
     erb :display_puppy
   end
